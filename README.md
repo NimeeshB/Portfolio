@@ -1,142 +1,136 @@
-<div align="center">
-  <br />
-    <a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank">
-      <img src="public/images/readme.png" alt="Project Banner">
-    </a>
-  <br />
+🌐 Nimeesh Bagwe — Interactive 3D Portfolio
 
-  <div>
-    <img src="https://img.shields.io/badge/-Three.js-black?style=for-the-badge&logo=three.js&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  </div>
+<div align="center"> <img src="public/images/readme.png" alt="Project Banner" /> </div> <p align="center"> A modern, interactive 3D portfolio built with React, Three.js, and TailwindCSS — showcasing my work in **Full-Stack Engineering**, **Cloud/DevOps**, and **AI-driven applications**. </p>
+📋 Table of Contents
 
-  <h3 align="center">Interactive 3D Portfolio Website</h3>
+🚀 Introduction
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
-</div>
+⚙️ Tech Stack
 
-## 📋 <a name="table">Table of Contents</a>
+✨ Features
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets & Snippets](#links)
-6. 🚀 [More](#more)
+💼 Projects
 
-## ⚠️ Tutorial
+🤸 Quick Start
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+🔗 Links
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+🚀 Introduction
 
-<a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+This portfolio highlights my journey as a Full-Stack Software Engineer with 3+ years of experience in designing distributed systems, modern UIs, and cloud-native applications
 
-## <a name="introduction">🤖 Introduction</a>
+NIMEESH_BAGWE
 
-The 3D Portfolio project is a highly engaging personal website that features animated 3D scenes, smooth camera transitions, interactive model showcases, and responsive design. It’s ideal for developers, designers, or freelancers looking to stand out in the digital crowd.
+.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+I designed this portfolio to:
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+Showcase projects like AI-driven content platforms, video-sharing systems, and task management backends.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+Share technical expertise in Java, C#, .NET Core, Spring Boot, React, Next.js, Docker, Kubernetes, AWS, and CI/CD pipelines
 
-- Three.js
-- React Three Fiber
-- Drei
-- GSAP
-- Tailwind CSS
-- Vite
-- React 19
+NIMEESH_BAGWE
 
-## <a name="features">🔋 Features</a>
+.
 
-### Features of the 3D Portfolio Project
+Provide a direct way to connect with me via an integrated contact form.
 
-👉 Animated 3D models and reveal animations
+⚙️ Tech Stack
 
-👉 Realistic lighting and shadows
+Frontend: React 19, Next.js, TailwindCSS
+3D & Animation: Three.js, React Three Fiber, @react-three/drei, GSAP
+Backend: .NET Core, Spring Boot, Node.js, Python
+Databases: PostgreSQL, MongoDB, MySQL, Appwrite
+Cloud/DevOps: AWS (EC2, S3, Lambda), Docker, Kubernetes, GitHub Actions, Jenkins
+Other Tools: Vite, EmailJS, JUnit, Mockito, Postman
 
-👉 GSAP-powered scroll interactions
+✨ Features
 
-👉 Responsive design with Tailwind CSS and Flexbox/Grid
+✔️ Animated 3D tech stack icons (GLB models)
+✔️ Smooth GSAP scroll animations & micro-interactions
+✔️ Project showcase cards with GitHub links
+✔️ Professional work experience timeline
+✔️ Contact form with EmailJS integration (real messages land in my inbox 🎉)
+✔️ Fully responsive & mobile-friendly
+✔️ Modular, reusable architecture
 
-👉 Micro Interactions
+💼 Projects
+📹 CallMind: AI-Driven Video Conferencing App
 
-👉 Multi-section layout (About, Projects, Contact)
+Built with Next.js 15, React 19, Stream SDKs, and OpenAI, featuring real-time chat, AI meeting summaries, and a scalable serverless architecture
 
-👉 Mobile optimized 3D experience
+NIMEESH_BAGWE
 
-and many more, including code architecture and reusability.
+.
 
-## <a name="quick-start">🤸 Quick Start</a>
+📝 BlogSphere: Blog Platform
 
-Follow these steps to set up the project locally on your machine.
+React + Redux SPA with Appwrite backend automation. Reduced render latency by 30% and cut backend setup time by 40%
 
-**Prerequisites**
+NIMEESH_BAGWE
 
-Make sure you have the following installed on your machine:
+.
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+🎥 CreatorSpace: Video Sharing Platform
 
-**Cloning the Repository**
+Full-stack Node.js + MongoDB system with JWT authentication and async media workflows. Reduced backend load by 40%
 
-```bash
-git clone https://github.com/adrianhajdin/3d-portfolio.git
-cd 3d-portfolio
-```
+NIMEESH_BAGWE
 
-**Installation**
+.
 
-Install the project dependencies using npm:
+📊 Trello-Inspired Task Manager
 
-```bash
+Spring Boot backend applying microservices design. Achieved 90% test coverage with JUnit + Mockito
+
+NIMEESH_BAGWE
+
+.
+
+💳 Distributed .NET APIs (Bank of America @ TCS)
+
+Engineered APIs handling 10M+ daily financial transactions, improving throughput by 20% and cutting latency by 20%
+
+NIMEESH_BAGWE
+
+.
+
+🤸 Quick Start
+
+Prerequisites:
+
+Git
+
+Node.js
+
+npm
+
+git clone https://github.com/NimeeshB/portfolio.git
+cd portfolio
 npm install
-```
 
-**Set Up Environment Variables**
+Setup Environment Variables:
+Create a .env file in the root:
 
-Create a new file named `.env` in the root of your project and add the following content:
+VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
 
-```env
-VITE_APP_EMAILJS_SERVICE_ID=
-VITE_APP_EMAILJS_TEMPLATE_ID=
-VITE_APP_EMAILJS_PUBLIC_KEY=
-```
+Run locally:
 
-Replace the placeholder values with your actual **[EmailJS](https://www.emailjs.com/)** credentials.
-
-**Running the Project**
-
-```bash
 npm run dev
-```
 
-Open [http://localhost:5173](http://localhost:5173/) in your browser to view the project.
+Visit http://localhost:5173
+.
 
+🔗 Links
 
-## <a name="links">🔗 Assets and Snippets</a>
+🌐 Portfolio Website → [Add your live link once deployed]
+💼 LinkedIn → linkedin.com/in/nimeeshbagwe
 
-Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/pfolio25-kit)**.
+🐙 GitHub → github.com/NimeeshB
 
-<a href="https://jsm.dev/pfolio25-kit" target="_blank">
-  <img src="public/images/readme-video-kit.png" alt="Video Kit Banner">
-</a>
+📝 License: MIT — Fork and customize freely.
 
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with JSM Pro Courses**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://beta.jsmastery.pro/" target="_blank">
-  <img src="public/images/readme-bottom.png" alt="Project Banner">
-</a>
+✨ Built with ❤️ by Nimeesh Bagwe — blending engineering precision with creative design.
+Credits: JavaScript Mastery @ youtube

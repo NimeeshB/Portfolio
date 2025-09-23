@@ -103,7 +103,7 @@ const techStackImgs = [
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "Cloud / DevOps Engineer",
+    name: "DevOps Engineer",
     imgPath: "/images/logos/three.png",
   },
   {
@@ -122,7 +122,7 @@ const techStackIcons = [
   {
     name: "Java(Spring Boot) / C#(.NET)",
     modelPath: "/models/java.glb",
-    scale: 1.5,
+    scale: 1.3,
     rotation: [0, 0, 0],
   },
   {
@@ -132,7 +132,7 @@ const techStackIcons = [
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Cloud / DevOps Engineer",
+    name: "DevOps Engineer",
     modelPath: "/models/aws_logo.glb",
     scale: 0.4,
     rotation: [0, 0, 0],
@@ -153,7 +153,7 @@ const expCards = [
     //imgPath: "/images/SU.png",
     logoPath: "/images/SU.png",
     title: "Software Engineer - Research Intern",
-    date: "January 2023 - Present",
+    date: "June 2023 - Present",
     responsibilities: [
       "Engineered AI content platform in Next.js, improving responsiveness 30%.",
       "Automated PostgreSQL schema with GitHub Actions, cutting deployment 25%.",
