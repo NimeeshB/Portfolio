@@ -53,12 +53,10 @@ const AppShowcase = () => {
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                CallMind: AI-Powered Video Conferencing Platform with Real-Time Collaboration
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                 Built using Next.js 15, React 19, and Stream SDKs, featuring AI meeting summaries, real-time chat, and a scalable serverless architecture.
               </p>
             </div>
           </div>
@@ -71,14 +69,24 @@ const AppShowcase = () => {
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>
+    BlogSphere: Blogging Platform with Rich Editor and Social Features
+  </h2>
+  <p className="text-white-50 md:text-xl">
+    Developed with React and Appwrite, enabling seamless content creation, likes, and user interactions in a responsive UI.
+  </p>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>
+    CreatorSpace: Video Sharing Platform Optimized for Performance and Security
+  </h2>
+  <p className="text-white-50 md:text-xl">
+    Built with Node.js, MongoDB, and JWT authentication, providing secure media handling and a scalable backend.
+  </p>
             </div>
           </div>
         </div>

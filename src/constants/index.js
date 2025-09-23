@@ -121,8 +121,8 @@ const techStackIcons = [
   },
   {
     name: "Java(Spring Boot) / C#(.NET)",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
+    modelPath: "/models/java.glb",
+    scale: 1.5,
     rotation: [0, 0, 0],
   },
   {
@@ -133,9 +133,10 @@ const techStackIcons = [
   },
   {
     name: "Cloud / DevOps Engineer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
+    modelPath: "/models/aws_logo.glb",
+    scale: 0.4,
     rotation: [0, 0, 0],
+    position: [0, -2.5, 0],
   },
   {
     name: "Full-Stack Engineer",
@@ -261,6 +262,7 @@ const socialImgs = [
   {
     name: "Github",
     imgPath: "/images/github.svg",
+    url: "https://github.com/NimeeshB",
   },
   {
     name: "linkedin",

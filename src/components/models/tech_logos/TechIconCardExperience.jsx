@@ -48,8 +48,8 @@ const TechIconCardExperience = ({ model }) => {
         that make up the 3D model.
       */}
       <Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
-        <group scale={model.scale} rotation={model.rotation}>
-          <primitive object={scene.scene} />
+        <group scale={model.scale} rotation={model.rotation} position={model.position || [0,0,0]}> 
+          <primitive object={scene.scene}  />
         </group>
       </Float>
 
