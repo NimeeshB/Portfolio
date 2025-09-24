@@ -48,8 +48,8 @@ const AppShowcase = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+            <div className="image-wrapper bg-[#FFEFDB] flex overflow-hidden items-center justify-center rounded-xl p-6 h-[500px]">
+              <img src="/images/Callmind.png" alt="Ryde App Interface" className="max-h-full max-w-full object-contain rounded-lg"/>
             </div>
             <div className="text-content">
               <h2>
@@ -58,6 +58,16 @@ const AppShowcase = () => {
               <p className="text-white-50 md:text-xl">
                  Built using Next.js 15, React 19, and Stream SDKs, featuring AI meeting summaries, real-time chat, and a scalable serverless architecture.
               </p>
+              <a
+    href="https://github.com/NimeeshB/SyncMind" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 px-4 py-2 mt-4
+             text-sm font-semibold text-black bg-white rounded-lg
+             shadow-md hover:bg-gray-200 transition-colors duration-300"
+  >
+    🔗 View on GitHub
+  </a>
             </div>
           </div>
 
@@ -65,7 +75,7 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
+                  src="/images/blog.png"
                   alt="Library Management Platform"
                 />
               </div>
@@ -75,11 +85,21 @@ const AppShowcase = () => {
   <p className="text-white-50 md:text-xl">
     Developed with React and Appwrite, enabling seamless content creation, likes, and user interactions in a responsive UI.
   </p>
+  <a
+    href="https://github.com/NimeeshB/BlogSphere-Frontend" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 px-4 py-2 mt-4
+             text-sm font-semibold text-black bg-white rounded-lg
+             shadow-md hover:bg-gray-200 transition-colors duration-300"
+  >
+    🔗 View on GitHub
+  </a>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/creatorspace.png" alt="YC Directory App" />
               </div>
               <h2>
     CreatorSpace: Video Sharing Platform Optimized for Performance and Security
@@ -87,6 +107,16 @@ const AppShowcase = () => {
   <p className="text-white-50 md:text-xl">
     Built with Node.js, MongoDB, and JWT authentication, providing secure media handling and a scalable backend.
   </p>
+  <a
+    href="https://github.com/NimeeshB/CreatorSpace-Backend" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 px-4 py-2 mt-4
+             text-sm font-semibold text-black bg-white rounded-lg
+             shadow-md hover:bg-gray-200 transition-colors duration-300"
+  >
+    🔗 View on GitHub
+  </a>
             </div>
           </div>
         </div>
