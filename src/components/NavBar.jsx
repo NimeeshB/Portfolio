@@ -42,11 +42,30 @@ const NavBar = () => {
           </ul>
         </nav>
 
-        <a href="#contact" className="contact-btn group">
-          <div className="inner">
-            <span>Contact me</span>
-          </div>
-        </a>
+        
+
+        <div className="flex items-center gap-3">
+          {/* Resume button */}
+          <a
+            href="/Nimeesh_Bagwe_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-btn group"
+            aria-label="Open resume PDF"
+          ><div className="inner">
+              <span>📄 Resume </span>
+            </div>
+            
+          </a>
+
+          {/* Contact button (unchanged) */}
+          <a href="#contact" className="contact-btn group">
+            <div className="inner">
+              <span>✉️ Contact me</span>
+            </div>
+          </a>
+        </div>
+        
       </div>
     </header>
   );
