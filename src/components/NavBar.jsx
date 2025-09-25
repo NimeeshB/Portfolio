@@ -4,6 +4,7 @@ import { navLinks } from "../constants";
 
 const NavBar = () => {
   // track if the user has scrolled down the page
+  const [showImage, setShowImage] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -25,9 +26,18 @@ const NavBar = () => {
   return (
     <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
       <div className="inner">
-        <a href="#hero" className="logo">
-          Nimeesh Bagwe
+        
+        <a href="#hero" className="logo flex items-center gap-3">
+          {/* Profile image */}
+          <img
+            src="images/Nimeesh_Bagwe.png"   // place your photo in public/images
+            alt="Nimeesh_Bagwe"
+            className="w-16 h-16 rounded-full border border-white shadow-md"
+            onClick={() => setShowImage(true)}
+          />
+          <span>Nimeesh Bagwe</span>
         </a>
+        
 
         <nav className="desktop">
           <ul>
